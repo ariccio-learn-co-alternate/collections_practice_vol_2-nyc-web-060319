@@ -17,6 +17,7 @@ end
 
 def count_elements(hash)
   return_hash = {}
+  binding.pry
   hash.each do |key, value|
     if return_hash.has_key?(key)
       return_hash[key][:count] += 1
