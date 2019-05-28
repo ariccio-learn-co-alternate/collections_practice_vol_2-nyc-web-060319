@@ -21,8 +21,8 @@ def count_elements(hash)
     if return_hash.has_key?(key)
       return_hash[key][:count] += 1
     else
-      return_has[key] = {:name => value, :count => 1}
+      return_hash[key] = {:name => value, :count => 1}
     end
   end
-  return hash
+  return return_hash
 end
