@@ -8,5 +8,5 @@ def contain_a(collection)
 end
 
 def first_wa(collection)
-  (collecton.select{ |item| item.start_with?("wa") })[0]
+  (collection.select{ |item| item.start_with?("wa") })[0]
 end
