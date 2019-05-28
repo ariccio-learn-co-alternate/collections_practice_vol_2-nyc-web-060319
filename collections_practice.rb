@@ -7,4 +7,6 @@ def contain_a(collection)
   collection.select{ |item| item.chars.any?("a") }
 end
 
-def first_wa
+def first_wa(collection)
+  
+end
