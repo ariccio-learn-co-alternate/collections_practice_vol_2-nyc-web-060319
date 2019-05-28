@@ -19,5 +19,10 @@ def count_elements(hash)
   return_hash = {}
   hash.each do |key, value|
     if return_hash.has_key?(key)
+      return_hash[key][:count] += 1
+    else
+      return_has[key] = {:name => value, :count => 1}
+    end
   end
+  return hash
 end
