@@ -28,3 +28,5 @@ def count_elements(hash)
   end
   return return_hash
 end
+
+count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])
