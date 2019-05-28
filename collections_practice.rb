@@ -4,5 +4,5 @@ def begins_with_r(argument_array)
 end
 
 def contain_a(collection)
-  collection.select{ |item| item.chars.
+  collection.select{ |item| item.chars.any?("a") }
 end
