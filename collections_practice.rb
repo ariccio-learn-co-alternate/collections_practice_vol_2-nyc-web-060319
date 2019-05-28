@@ -16,14 +16,14 @@ def remove_non_strings(collection)
   collection.select{ |item| item.class == String }
 end
 
-def count_elements(hash)
+def count_elements(array)
   return_hash = {}
   binding.pry
-  hash.each do |key, value|
-    if return_hash.has_key?(key)
-      return_hash[key][:count] += 1
+  hash.each do |name|
+    if return_hash.has_key?(name)
+      return_hash[name][:count] += 1
     else
-      return_hash[key] = {:count => 1}
+      return_hash[name] = :count => 1
     end
   end
   return return_hash
