@@ -1,3 +1,4 @@
+require "pry"
 # your code goes here
 def begins_with_r(argument_array)
   argument_array.all?{|arg| arg[0] == "r"}
