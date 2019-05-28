@@ -10,3 +10,7 @@ end
 def first_wa(collection)
   (collection.select{ |item| ( item.class == String ) && ( item.start_with?("wa") ) })[0]
 end
+
+def remove_non_strings(collection)
+  collection.select{ |item| item.class == String }
+end
