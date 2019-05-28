@@ -16,7 +16,8 @@ def remove_non_strings(collection)
 end
 
 def count_elements(hash)
+  return_hash = {}
   hash.each do |key, value|
-    
+    if return_hash.has_key?(key)
   end
 end
