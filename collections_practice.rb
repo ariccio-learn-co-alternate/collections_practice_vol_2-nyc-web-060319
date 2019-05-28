@@ -14,3 +14,9 @@ end
 def remove_non_strings(collection)
   collection.select{ |item| item.class == String }
 end
+
+def count_elements(hash)
+  hash.each do |key, value|
+    
+  end
+end
